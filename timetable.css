@@ -1,0 +1,57 @@
+.schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule li {
+    padding: 5px;
+    margin: 2px 0;
+}
+
+/* Псевдокласи стану */
+.schedule li:hover {
+    background-color: lightblue;
+}
+
+.schedule li:active {
+    background-color: lightcoral;
+}
+
+.schedule li:focus {
+    outline: 2px solid blue;
+}
+
+.schedule li:checked {
+    background-color: lightgreen;
+}
+
+.schedule li:disabled {
+    background-color: lightgray;
+}
+
+/* Структурні псевдокласи */
+.schedule li:first-child {
+    color: red;
+}
+
+.schedule li:last-child {
+    color: green;
+}
+
+.schedule li:nth-child(odd) {
+    background-color: lightyellow;
+}
+
+.schedule li:nth-child(even) {
+    background-color: lightpink;
+}
+
+.schedule li:nth-of-type(2) {
+    font-weight: bold;
+}

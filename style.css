@@ -1,0 +1,19 @@
+.text-box h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:last-child {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
